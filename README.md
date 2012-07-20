@@ -1,7 +1,7 @@
 CodeIgniter Image_lib-FLAMA
 =============
 
-Extended image library for CodeIgniter based on Image_lib@CI2.1.2
+Extended image library for CodeIgniter based on Image_lib / CI2.1.2
 
 Installation
 -------
@@ -9,7 +9,7 @@ Installation
 Copy application/libraries/Image_lib.php to YOUR_CI_PATH/application/libraries/ .
 
 
-Changes from Image_lib@CI2.1.2
+Changes from Image_lib / CI2.1.2
 ------------
 Added : 
 * variables(flags) : "rotate_by_exif" and "strip_exif".
@@ -49,7 +49,9 @@ Default: TRUE
     );
     $this->load->library('image_lib', $config_image);
     $this->image_lib->resize();
+
 OR
+
     $config_image = array(
       'image_library' => 'gd2',
       'source_image' => '/var/www/html/IMAGE_SOURCE.jpg',
