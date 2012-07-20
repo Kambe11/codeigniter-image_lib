@@ -14,6 +14,7 @@ Changes from Image_lib / CI2.1.2
 Added : 
 * variables(flags) : "rotate_by_exif" and "strip_exif".
 * method : _image_mirror_gd()
+
 Modified:
 * image_process_imagemagick() : Negative parameters are acceptable in "x_axis" and "y_axis".
 * image_process_imagemagick() : Rotate image resource by "Orientation" tag in Exif.
