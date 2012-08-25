@@ -1,4 +1,4 @@
-CodeIgniter Image_lib-FLAMA
+CodeIgniter Image_lib
 =============
 
 Extended image library for CodeIgniter based on Image_lib / CI2.1.2
